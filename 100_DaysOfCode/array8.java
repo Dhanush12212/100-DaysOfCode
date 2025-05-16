@@ -1,7 +1,7 @@
 //Longest Subarray that sum k (Optimal Solution -> HashMap)
 
 import java.util.*;
-public class array8 {
+public class Array8 {
     public static int getLongestSubarray(int arr[], int k) {
         Map<Long, Integer> preSumMap = new HashMap<>();
         long sum = 0;

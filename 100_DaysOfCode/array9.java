@@ -1,6 +1,6 @@
 //Longest SubArray that sum k (Optimal solution -> Two Pointer approach)
 
-public class array9 {
+public class Array9 {
     public static int getLongestSubarray(int arr[], int k) {
         int left = 0, right = 0;
         long sum = arr[0];
