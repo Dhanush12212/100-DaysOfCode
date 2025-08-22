@@ -1,2 +1,3 @@
-Arrays.asList(arr[i], arr[j], third);
-                    temp.sort(null);
+if(flag == 0) {
+                return i;
+            }
