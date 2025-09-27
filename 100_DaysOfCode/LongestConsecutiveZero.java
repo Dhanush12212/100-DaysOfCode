@@ -1,6 +1,8 @@
+//Longest Consecutive Zero
+
 import java.util.*;
 
-public class array22 { 
+public class LongestConsecutiveZero { 
     public static int consecutiveZero(int n, int nums[]) {
         HashMap<Integer, Integer> hash = new HashMap<>();
         int max = 0;
